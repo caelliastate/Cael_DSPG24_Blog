@@ -16,4 +16,4 @@ about:
 
 ---
 
-About this blog
+My name is Cael Leistikow and I am a senior Data Science major and Iowa State University.
