@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Cael Leistikow">
+<meta name="dcterms.date" content="2024-05-16">
 
-<title>Cael_DSPG24_Blog</title>
+<title>Cael_DSPG24_Blog - Cael’s Introduction</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +68,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Cael_DSPG24_Blog</span>
     </a>
   </div>
@@ -149,7 +91,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -172,182 +114,106 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Cael_DSPG24_Blog</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Cael’s Introduction</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Introduction</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Cael Leistikow </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 16, 2024</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Introduction">Introduction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Trial">Trial <span class="quarto-category-count">(1)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="code">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<p><img src="imgs/Cael103.png" class="img-fluid"></p>
+<section id="where-are-you-from" class="level4">
+<h4 class="anchored" data-anchor-id="where-are-you-from">Where are you from?</h4>
+<p>I grew up in Fredricka, Iowa which is about 30 minutes north of Waterloo and I attended New Hampton High School.</p>
+</section>
+<section id="whats-your-current-academic-year" class="level4">
+<h4 class="anchored" data-anchor-id="whats-your-current-academic-year">What’s your current academic year?</h4>
+<p>I am currently a Senior at Iowa State going into my fourth year with intentions of graduating next Spring.</p>
+</section>
+<section id="what-degrees-are-you-studying" class="level4">
+<h4 class="anchored" data-anchor-id="what-degrees-are-you-studying">What degrees are you studying?</h4>
+<p>I am majoring in Data science with a minor in Economics</p>
+</section>
+<section id="why-did-you-choose-your-degrees" class="level4">
+<h4 class="anchored" data-anchor-id="why-did-you-choose-your-degrees">Why did you choose your degrees?</h4>
+<p>I chose these degree because I had always been fascinated by statistics, especially sports statistics, and as I went through high school I began to grow an interest in programming as well and when I discovered that Iowa State offered a degree that was a mixture of the two, I knew that it was what I wanted to pursue.</p>
+</section>
+<section id="what-are-your-plans-with-your-degrees" class="level4">
+<h4 class="anchored" data-anchor-id="what-are-your-plans-with-your-degrees">What are your plans with your degree(s)?</h4>
+<p>My plans for after college is to use my degrees as a Data Analyst or Data Scientist within the business sector and having my Economics degree as well to be able to apply my knowledge towards making informative business decisions. After a few years I would consider to go for my dream job of working as a sports data analyst for a professional US sports team, preferably in baseball or football.</p>
+</section>
+<section id="why-do-you-care-about-data-science" class="level4">
+<h4 class="anchored" data-anchor-id="why-do-you-care-about-data-science">Why do you care about data science?</h4>
+<p>I care about data science cause I firmly believe that it is the future towards optimizing and maximizing everything that we do in society. Everything that we do can be put into data and being able to understand how to work with and interpret that data is very valuable. Although it comes with a lot of power that can be manipulated if the owner so desires.</p>
+<p><img src="imgs/th2.jpg" class="img-fluid"></p>
+</section>
+<section id="do-you-have-any-prior-experience-with-data-science" class="level4">
+<h4 class="anchored" data-anchor-id="do-you-have-any-prior-experience-with-data-science">Do you have any prior experience with data science?</h4>
+<p>I have taken numerous data science courses here at Iowa State. I have had an internship with Kingland Systems as a Data Research Analyst. Finally, I have been a Statistician when I was playing under levels of athletics for the varsity team in high school.</p>
+</section>
+<section id="what-kinds-of-extracurricular-activitieshobbies-do-you-care-about" class="level4">
+<h4 class="anchored" data-anchor-id="what-kinds-of-extracurricular-activitieshobbies-do-you-care-about">What kinds of extracurricular activities/hobbies do you care about?</h4>
+<p>My extracurricular activities are the Sports Analytics Club, Data Science Club, and Intramural sports.<br>
+My favorite hobbies are playing basketball, watching sports and going to games, hanging out with friends, listening to music, cooking, and travel.</p>
+</section>
+<section id="what-do-you-want-your-peers-to-know-about-you" class="level4">
+<h4 class="anchored" data-anchor-id="what-do-you-want-your-peers-to-know-about-you">What do you want your peers to know about you?</h4>
+<p><img src="imgs/th.png" class="img-fluid"></p>
+<p>An interesting fact about me is I have visited 24 of the 50 states as well as DC and Canada. Obviously I like to travel. My favorite trip being to Colorado. Additionally, my most desired place to travel next would be Hawaii as I haven’t gone outside on the intercontinental US or Canada.</p>
+</section>
+<section id="list-some-skills-in-data-science-that-you-feel-you-do-well" class="level4">
+<h4 class="anchored" data-anchor-id="list-some-skills-in-data-science-that-you-feel-you-do-well">List some skills in data science that you feel you do well?</h4>
+<p>I feel I do very well in data visualization, statistical analysis, machine learning/modeling, R programming as it is my more preferred programming language, and finally SQL and database management.</p>
+</section>
+<section id="list-at-least-three-skills-you-would-like-to-learn-or-develop-during-the-dspg-program." class="level4">
+<h4 class="anchored" data-anchor-id="list-at-least-three-skills-you-would-like-to-learn-or-develop-during-the-dspg-program.">List at least three skills you would like to learn or develop during the DSPG program.</h4>
+<p>I would like to develop during the DSPG program is AI development as AI is going to continue to integrated itself in everyday life. Another skill I would like to learn is GIS as I have seen a lot of employers looking for candidates who are able to effectively use GIS. Finally, the last thing I would like to learn is how the data science process works in a real-world scenario that I could then apply in the future.</p>
+</section>
+<section id="why-are-you-pursuing-these-skills-why-do-they-matter-to-you" class="level4">
+<h4 class="anchored" data-anchor-id="why-are-you-pursuing-these-skills-why-do-they-matter-to-you">Why are you pursuing these skills? Why do they matter to you?</h4>
+<p>The reason I’m pursuing these skills and why the matter to me is because I want to be able to put myself in the best position I can for when I’m beginning to look for my full-time career. Being a senior this coming year I need to refine and learn any skills that I can to help me stand out as a candidate to make sure I position myself for the job I want and to have a successful life.</p>
+</section>
+<section id="how-do-you-hope-to-improve-these-skills" class="level4">
+<h4 class="anchored" data-anchor-id="how-do-you-hope-to-improve-these-skills">How do you hope to improve these skills?</h4>
+<p>I hope to learn and improve these skills through Datacamp as a tutorial for GIS or AI to help create a foundational understanding and then from there apply it to the projects to help use this knowledge on a real-world issue. Additionally, learning from the project leaders and the lunch talks during the program will help me see from other people’s perspective and ask questions to grow my understanding further.</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Introduction" data-listing-date-sort="1715835600000" data-listing-file-modified-sort="1715891223875" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="732">
-<div class="thumbnail">
-<p><a href="./posts/Cael's Introduction/Cael_Introduction.html" class="no-external"></a></p><a href="./posts/Cael's Introduction/Cael_Introduction.html" class="no-external">
-<p class="card-img-top"><img src="posts\Cael's Introduction\imgs\Cael103.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/Cael's Introduction/Cael_Introduction.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Cael's Introduction/Cael_Introduction.html" class="no-external">Cael’s Introduction</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/Cael's Introduction/Cael_Introduction.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Introduction'); return false;">
-Introduction
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/Cael's Introduction/Cael_Introduction.html" class="no-external">I grew up in Fredricka, Iowa which is about 30 minutes north of Waterloo and I attended New Hampton High School.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/Cael's Introduction/Cael_Introduction.html" class="no-external">
-<div class="listing-date">
-May 16, 2024
-</div>
-<div class="listing-author">
-Cael Leistikow
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="news,code,analysis" data-listing-date-sort="1715835600000" data-listing-file-modified-sort="1715882172702" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
-<div class="thumbnail">
-<p><a href="./posts/post-with-code/index.html" class="no-external"></a></p><a href="./posts/post-with-code/index.html" class="no-external">
-<p><img src="./posts/post-with-code/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/post-with-code/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/post-with-code/index.html" class="no-external">Post With Code</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/post-with-code/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
-code
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
-analysis
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/post-with-code/index.html" class="no-external">This is a post with executable code.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/post-with-code/index.html" class="no-external">
-<div class="listing-date">
-May 16, 2024
-</div>
-<div class="listing-author">
-Harlow Malloc
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Trial" data-listing-date-sort="1715576400000" data-listing-file-modified-sort="1715886407078" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
-<div class="thumbnail">
-<p><a href="./posts/Trial/index.html" class="no-external"></a></p><a href="./posts/Trial/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/Trial/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Trial/index.html" class="no-external">Trial</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/Trial/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Trial'); return false;">
-Trial
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/Trial/index.html" class="no-external">This is a trial post!</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/Trial/index.html" class="no-external">
-<div class="listing-date">
-May 13, 2024
-</div>
-<div class="listing-author">
-Cael Leistikow
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="news" data-listing-date-sort="1715576400000" data-listing-file-modified-sort="1715882172697" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="thumbnail">
-<p><a href="./posts/welcome/index.html" class="no-external"></a></p><a href="./posts/welcome/index.html" class="no-external">
-<p class="card-img-top"><img src="posts\welcome\thumbnail.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/welcome/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/index.html" class="no-external">Welcome To My Blog</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/welcome/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/welcome/index.html" class="no-external">This is the first post in a Quarto blog. Welcome!</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html" class="no-external">
-<div class="listing-date">
-May 13, 2024
-</div>
-<div class="listing-author">
-Tristan O’Malley
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
