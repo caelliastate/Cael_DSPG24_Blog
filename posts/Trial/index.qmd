@@ -4,3 +4,5 @@ author: "Cael Leistikow"
 date: "2024-05-13"
 categories: [Trial]
 ---
+
+This is a trial post!
