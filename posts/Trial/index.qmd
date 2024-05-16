@@ -1,0 +1,6 @@
+---
+title: "Welcome To My Blog"
+author: "Cael Leistikow"
+date: "2024-05-13"
+categories: [Trial]
+---
