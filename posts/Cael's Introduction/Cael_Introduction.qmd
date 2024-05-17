@@ -5,8 +5,7 @@ date: "2024-05-16"
 categories: [Introduction]
 ---
 
-
-![](imgs/Cael103.png)  
+![](imgs/Cael103.png)\
 Hello, My name is Cael Leistikow
 
 #### Where are you from?
@@ -33,7 +32,7 @@ My plans for after college is to use my degrees as a Data Analyst or Data Scient
 
 I care about data science cause I firmly believe that it is the future towards optimizing and maximizing everything that we do in society. Everything that we do can be put into data and being able to understand how to work with and interpret that data is very valuable. Although it comes with a lot of power that can be manipulated if the owner so desires.
 
-![](imgs/th2.jpg)
+![](imgs/th2.jpg){width="339"}
 
 #### Do you have any prior experience with data science?
 
