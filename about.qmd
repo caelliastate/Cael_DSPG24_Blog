@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: Cael103.png
+image: img.Cael103.png
 about:
   template: jolla
   links:
