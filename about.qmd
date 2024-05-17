@@ -6,13 +6,13 @@ about:
   links:
     - icon: twitter
       text: Twitter
-      href: https://twitter.com
+      href: https://twitter.com/CaelLeistikow
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: www.linkedin.com/in/caell
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/caelliastate
 
 ---
 
